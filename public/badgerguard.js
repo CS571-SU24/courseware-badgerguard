@@ -7,7 +7,7 @@ const createCS571 = () => {
 			}
 		}).then(res => {
 			if (res.ok) {
-				alert("Badger ID successfully saved!")
+				alert("Badger ID successfully saved! Please refresh the page to continue.")
 				localStorage.setItem("badgerid", bid)
 			} else {
 				alert("You did not specify a valid Badger ID, please refresh the page and try again!")
